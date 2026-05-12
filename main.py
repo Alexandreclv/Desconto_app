@@ -21,8 +21,8 @@ def main() -> None:
         print(
             f"Cliente: {pedido.cliente} | "
             f"Valor original: R$ {pedido.valor_original:.2f} | "
-            f"Desconto: R$ {pedido.valor_desconto():.2f} | "
-            f"Valor final: R$ {pedido.valor_final():.2f}"
+            f"Desconto: R$ {pedido.valor_desconto:.2f} | "
+            f"Valor final: R$ {pedido.valor_final:.2f}"
         )
 
 if __name__ == "__main__":
